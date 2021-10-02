@@ -5,93 +5,173 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 甲骨文1-trojan, server: jgw.gaox.ml, port: 443, type: trojan, password: 22c3cf11-48e4-4ea8-9c6c-6ac7718e67ea, sni: jgw.gaox.ml}
-  - {name: 甲骨文2-trojan, server: jgw2.gaox.ml, port: 443, type: trojan, password: f7426d11-156f-4215-a5f6-e714afba59b0, sni: jgw2.gaox.ml}
-  - {name: 甲骨文3-trojan, server: jgw3.gaox.ml, port: 443, type: trojan, password: 42dcc5d6-b28d-4040-9432-f5e24c675b2d, sni: jgw3.gaox.ml}
-  - {name: 甲骨文4-trojan, server: jgw4.gaox.ml, port: 443, type: trojan, password: 30f5497b-e23c-4ef5-9722-033b69e7c74c, sni: jgw4.gaox.ml}
-  - {name: 甲骨文春川1-trojan, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 72f6b247-1374-4829-84f5-969bab43d832, sni: jgwcc1.gaox.ml}
-  - {name: 甲骨文春川2-trojan, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: e87e0f94-f535-468b-9f73-e4556a8ce918, sni: jgwcc2.gaox.ml}
+  - {name: 🇰🇷 甲骨文-首尔-AMD1-trojan, server: jgw.gaox.ml, port: 443, type: trojan, password: 22c3cf11-48e4-4ea8-9c6c-6ac7718e67ea, sni: jgw.gaox.ml}
+  - {name: 🇰🇷 甲骨文-首尔-AMD2-trojan, server: jgw2.gaox.ml, port: 443, type: trojan, password: f7426d11-156f-4215-a5f6-e714afba59b0, sni: jgw2.gaox.ml}
+  - {name: 🇦🇷 甲骨文-首尔-ARM1-trojan, server: jgw3.gaox.ml, port: 443, type: trojan, password: 42dcc5d6-b28d-4040-9432-f5e24c675b2d, sni: jgw3.gaox.ml}
+  - {name: 🇦🇷 甲骨文-首尔-ARM2-trojan, server: jgw4.gaox.ml, port: 443, type: trojan, password: 30f5497b-e23c-4ef5-9722-033b69e7c74c, sni: jgw4.gaox.ml}
+  - {name: 甲骨文-春川-AMD1-trojan, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 72f6b247-1374-4829-84f5-969bab43d832, sni: jgwcc1.gaox.ml}
+  - {name: 甲骨文-春川-AMD2-trojan, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: e87e0f94-f535-468b-9f73-e4556a8ce918, sni: jgwcc2.gaox.ml}
+  - {name: 甲骨文-东京-AMD1-trojan, server: jgwdj1.gaox.ml, port: 443, type: trojan, password: e8553fc5-f3a0-409c-ac06-1cd93b026cf4, sni: jgwdj1.gaox.ml}
+  - {name: 甲骨文-东京-AMD2-trojan, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml}
+  - {name: 甲骨文-大阪-AMD1-trojan, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: 49ccf345-d065-41da-ba1b-ba06cff249f0, sni: jgwdb1.gaox.ml}
+  - {name: 甲骨文-大阪-AMD2-trojan, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: dcd67bfe-87fe-4b42-863e-1271e0c180ce, sni: jgwdb2.gaox.ml}
+  - {name: 🇦🇷 甲骨文-大阪-ARM1-trojan, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: bbdeb751-e502-42bf-aeb1-1e41c5322845, sni: jgwdb3.gaox.ml}
+  - {name: 🇦🇷 甲骨文-大阪-ARM2-trojan, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: 207345bf-ab8e-4326-9d00-592a4d601c7a, sni: jgwdb4.gaox.ml}
+  - {name: 🇺🇲 甲骨文-圣何塞-AMD1-trojan, server: jgwshs1.gaox.ml, port: 443, type: trojan, password: 68addee3-bf6d-4dc7-89c0-fa116b23f4b7, sni: jgwshs1.gaox.ml}
+  - {name: 🇺🇲 甲骨文-圣何塞-AMD2-trojan, server: jgwshs2.gaox.ml, port: 443, type: trojan, password: 165b6373-13bb-48e3-9901-6df2608421d4, sni: jgwshs2.gaox.ml}
+  - {name: 🇸🇦 甲骨文-迪拜-AMD1-trojan, server: jgwdibai1.gaox.ml, port: 443, type: trojan, password: e3cec46b-9cd4-4a33-8f7b-e339bd72a005, sni: jgwdibai1.gaox.ml}
+  - {name: 🇸🇦 甲骨文-迪拜-AMD2-trojan, server: jgwdibai2.gaox.ml, port: 443, type: trojan, password: b229644f-a549-4abb-a4f9-49b0a22f8e98, sni: jgwdibai2.gaox.ml}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 甲骨文1-trojan
-      - 甲骨文2-trojan
-      - 甲骨文3-trojan
-      - 甲骨文4-trojan
-      - 甲骨文春川1-trojan
-      - 甲骨文春川2-trojan
+      - 🇰🇷 甲骨文-首尔-AMD1-trojan
+      - 🇰🇷 甲骨文-首尔-AMD2-trojan
+      - 🇦🇷 甲骨文-首尔-ARM1-trojan
+      - 🇦🇷 甲骨文-首尔-ARM2-trojan
+      - 甲骨文-春川-AMD1-trojan
+      - 甲骨文-春川-AMD2-trojan
+      - 甲骨文-东京-AMD1-trojan
+      - 甲骨文-东京-AMD2-trojan
+      - 甲骨文-大阪-AMD1-trojan
+      - 甲骨文-大阪-AMD2-trojan
+      - 🇦🇷 甲骨文-大阪-ARM1-trojan
+      - 🇦🇷 甲骨文-大阪-ARM2-trojan
+      - 🇺🇲 甲骨文-圣何塞-AMD1-trojan
+      - 🇺🇲 甲骨文-圣何塞-AMD2-trojan
+      - 🇸🇦 甲骨文-迪拜-AMD1-trojan
+      - 🇸🇦 甲骨文-迪拜-AMD2-trojan
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 甲骨文1-trojan
-      - 甲骨文2-trojan
-      - 甲骨文3-trojan
-      - 甲骨文4-trojan
-      - 甲骨文春川1-trojan
-      - 甲骨文春川2-trojan
+      - 🇰🇷 甲骨文-首尔-AMD1-trojan
+      - 🇰🇷 甲骨文-首尔-AMD2-trojan
+      - 🇦🇷 甲骨文-首尔-ARM1-trojan
+      - 🇦🇷 甲骨文-首尔-ARM2-trojan
+      - 甲骨文-春川-AMD1-trojan
+      - 甲骨文-春川-AMD2-trojan
+      - 甲骨文-东京-AMD1-trojan
+      - 甲骨文-东京-AMD2-trojan
+      - 甲骨文-大阪-AMD1-trojan
+      - 甲骨文-大阪-AMD2-trojan
+      - 🇦🇷 甲骨文-大阪-ARM1-trojan
+      - 🇦🇷 甲骨文-大阪-ARM2-trojan
+      - 🇺🇲 甲骨文-圣何塞-AMD1-trojan
+      - 🇺🇲 甲骨文-圣何塞-AMD2-trojan
+      - 🇸🇦 甲骨文-迪拜-AMD1-trojan
+      - 🇸🇦 甲骨文-迪拜-AMD2-trojan
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 甲骨文1-trojan
-      - 甲骨文2-trojan
-      - 甲骨文3-trojan
-      - 甲骨文4-trojan
-      - 甲骨文春川1-trojan
-      - 甲骨文春川2-trojan
+      - 🇰🇷 甲骨文-首尔-AMD1-trojan
+      - 🇰🇷 甲骨文-首尔-AMD2-trojan
+      - 🇦🇷 甲骨文-首尔-ARM1-trojan
+      - 🇦🇷 甲骨文-首尔-ARM2-trojan
+      - 甲骨文-春川-AMD1-trojan
+      - 甲骨文-春川-AMD2-trojan
+      - 甲骨文-东京-AMD1-trojan
+      - 甲骨文-东京-AMD2-trojan
+      - 甲骨文-大阪-AMD1-trojan
+      - 甲骨文-大阪-AMD2-trojan
+      - 🇦🇷 甲骨文-大阪-ARM1-trojan
+      - 🇦🇷 甲骨文-大阪-ARM2-trojan
+      - 🇺🇲 甲骨文-圣何塞-AMD1-trojan
+      - 🇺🇲 甲骨文-圣何塞-AMD2-trojan
+      - 🇸🇦 甲骨文-迪拜-AMD1-trojan
+      - 🇸🇦 甲骨文-迪拜-AMD2-trojan
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 甲骨文1-trojan
-      - 甲骨文2-trojan
-      - 甲骨文3-trojan
-      - 甲骨文4-trojan
-      - 甲骨文春川1-trojan
-      - 甲骨文春川2-trojan
+      - 🇰🇷 甲骨文-首尔-AMD1-trojan
+      - 🇰🇷 甲骨文-首尔-AMD2-trojan
+      - 🇦🇷 甲骨文-首尔-ARM1-trojan
+      - 🇦🇷 甲骨文-首尔-ARM2-trojan
+      - 甲骨文-春川-AMD1-trojan
+      - 甲骨文-春川-AMD2-trojan
+      - 甲骨文-东京-AMD1-trojan
+      - 甲骨文-东京-AMD2-trojan
+      - 甲骨文-大阪-AMD1-trojan
+      - 甲骨文-大阪-AMD2-trojan
+      - 🇦🇷 甲骨文-大阪-ARM1-trojan
+      - 🇦🇷 甲骨文-大阪-ARM2-trojan
+      - 🇺🇲 甲骨文-圣何塞-AMD1-trojan
+      - 🇺🇲 甲骨文-圣何塞-AMD2-trojan
+      - 🇸🇦 甲骨文-迪拜-AMD1-trojan
+      - 🇸🇦 甲骨文-迪拜-AMD2-trojan
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 甲骨文1-trojan
-      - 甲骨文2-trojan
-      - 甲骨文3-trojan
-      - 甲骨文4-trojan
-      - 甲骨文春川1-trojan
-      - 甲骨文春川2-trojan
+      - 🇰🇷 甲骨文-首尔-AMD1-trojan
+      - 🇰🇷 甲骨文-首尔-AMD2-trojan
+      - 🇦🇷 甲骨文-首尔-ARM1-trojan
+      - 🇦🇷 甲骨文-首尔-ARM2-trojan
+      - 甲骨文-春川-AMD1-trojan
+      - 甲骨文-春川-AMD2-trojan
+      - 甲骨文-东京-AMD1-trojan
+      - 甲骨文-东京-AMD2-trojan
+      - 甲骨文-大阪-AMD1-trojan
+      - 甲骨文-大阪-AMD2-trojan
+      - 🇦🇷 甲骨文-大阪-ARM1-trojan
+      - 🇦🇷 甲骨文-大阪-ARM2-trojan
+      - 🇺🇲 甲骨文-圣何塞-AMD1-trojan
+      - 🇺🇲 甲骨文-圣何塞-AMD2-trojan
+      - 🇸🇦 甲骨文-迪拜-AMD1-trojan
+      - 🇸🇦 甲骨文-迪拜-AMD2-trojan
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 甲骨文1-trojan
-      - 甲骨文2-trojan
-      - 甲骨文3-trojan
-      - 甲骨文4-trojan
-      - 甲骨文春川1-trojan
-      - 甲骨文春川2-trojan
+      - 🇰🇷 甲骨文-首尔-AMD1-trojan
+      - 🇰🇷 甲骨文-首尔-AMD2-trojan
+      - 🇦🇷 甲骨文-首尔-ARM1-trojan
+      - 🇦🇷 甲骨文-首尔-ARM2-trojan
+      - 甲骨文-春川-AMD1-trojan
+      - 甲骨文-春川-AMD2-trojan
+      - 甲骨文-东京-AMD1-trojan
+      - 甲骨文-东京-AMD2-trojan
+      - 甲骨文-大阪-AMD1-trojan
+      - 甲骨文-大阪-AMD2-trojan
+      - 🇦🇷 甲骨文-大阪-ARM1-trojan
+      - 🇦🇷 甲骨文-大阪-ARM2-trojan
+      - 🇺🇲 甲骨文-圣何塞-AMD1-trojan
+      - 🇺🇲 甲骨文-圣何塞-AMD2-trojan
+      - 🇸🇦 甲骨文-迪拜-AMD1-trojan
+      - 🇸🇦 甲骨文-迪拜-AMD2-trojan
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 甲骨文1-trojan
-      - 甲骨文2-trojan
-      - 甲骨文3-trojan
-      - 甲骨文4-trojan
-      - 甲骨文春川1-trojan
-      - 甲骨文春川2-trojan
+      - 🇰🇷 甲骨文-首尔-AMD1-trojan
+      - 🇰🇷 甲骨文-首尔-AMD2-trojan
+      - 🇦🇷 甲骨文-首尔-ARM1-trojan
+      - 🇦🇷 甲骨文-首尔-ARM2-trojan
+      - 甲骨文-春川-AMD1-trojan
+      - 甲骨文-春川-AMD2-trojan
+      - 甲骨文-东京-AMD1-trojan
+      - 甲骨文-东京-AMD2-trojan
+      - 甲骨文-大阪-AMD1-trojan
+      - 甲骨文-大阪-AMD2-trojan
+      - 🇦🇷 甲骨文-大阪-ARM1-trojan
+      - 🇦🇷 甲骨文-大阪-ARM2-trojan
+      - 🇺🇲 甲骨文-圣何塞-AMD1-trojan
+      - 🇺🇲 甲骨文-圣何塞-AMD2-trojan
+      - 🇸🇦 甲骨文-迪拜-AMD1-trojan
+      - 🇸🇦 甲骨文-迪拜-AMD2-trojan
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -114,12 +194,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 甲骨文1-trojan
-      - 甲骨文2-trojan
-      - 甲骨文3-trojan
-      - 甲骨文4-trojan
-      - 甲骨文春川1-trojan
-      - 甲骨文春川2-trojan
+      - 🇰🇷 甲骨文-首尔-AMD1-trojan
+      - 🇰🇷 甲骨文-首尔-AMD2-trojan
+      - 🇦🇷 甲骨文-首尔-ARM1-trojan
+      - 🇦🇷 甲骨文-首尔-ARM2-trojan
+      - 甲骨文-春川-AMD1-trojan
+      - 甲骨文-春川-AMD2-trojan
+      - 甲骨文-东京-AMD1-trojan
+      - 甲骨文-东京-AMD2-trojan
+      - 甲骨文-大阪-AMD1-trojan
+      - 甲骨文-大阪-AMD2-trojan
+      - 🇦🇷 甲骨文-大阪-ARM1-trojan
+      - 🇦🇷 甲骨文-大阪-ARM2-trojan
+      - 🇺🇲 甲骨文-圣何塞-AMD1-trojan
+      - 🇺🇲 甲骨文-圣何塞-AMD2-trojan
+      - 🇸🇦 甲骨文-迪拜-AMD1-trojan
+      - 🇸🇦 甲骨文-迪拜-AMD2-trojan
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1834,7 +1924,6 @@ rules:
  - IP-CIDR,74.125.203.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,74.125.204.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,74.125.206.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,108.177.97.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,108.177.125.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,142.250.4.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,142.250.10.188/32,📢 谷歌FCM,no-resolve
@@ -2311,6 +2400,7 @@ rules:
  - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
  - DOMAIN-SUFFIX,gameloft.com,🚀 节点选择
  - DOMAIN-SUFFIX,garena.com,🚀 节点选择
+ - DOMAIN-SUFFIX,hoyolab.com,🚀 节点选择
  - DOMAIN-SUFFIX,inoreader.com,🚀 节点选择
  - DOMAIN-SUFFIX,ip138.com,🚀 节点选择
  - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
