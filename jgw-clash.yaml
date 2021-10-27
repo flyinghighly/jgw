@@ -23,8 +23,6 @@ proxies:
   - {name: 🇺🇲 甲骨文-凤凰城-AMD2-trojan, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml}
   - {name: 🇦🇷 甲骨文-凤凰城-ARM1-trojan, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml}
   - {name: 🇦🇷 甲骨文-凤凰城-ARM2-trojan, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml}
-  - {name: 🇸🇦 甲骨文-迪拜-AMD1-trojan, server: jgwdibai1.gaox.ml, port: 443, type: trojan, password: e3cec46b-9cd4-4a33-8f7b-e339bd72a005, sni: jgwdibai1.gaox.ml}
-  - {name: 🇸🇦 甲骨文-迪拜-AMD2-trojan, server: jgwdibai2.gaox.ml, port: 443, type: trojan, password: b229644f-a549-4abb-a4f9-49b0a22f8e98, sni: jgwdibai2.gaox.ml}
   - {name: 甲骨文-纽波特-AMD1-trojan, server: jgwnbt1.gaox.ml, port: 443, type: trojan, password: cb52d988-af36-4769-b57b-fdbde0d45f48, sni: jgwnbt1.gaox.ml}
   - {name: 甲骨文-纽波特-AMD2-trojan, server: jgwnbt2.gaox.ml, port: 443, type: trojan, password: 8d5882e3-0a4e-4fb3-9932-7c37a9f31b08, sni: jgwnbt2.gaox.ml}
   - {name: 🇬🇧 甲骨文-伦敦-AMD1-trojan, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml}
@@ -37,6 +35,11 @@ proxies:
   - {name: 🇳🇱 甲骨文-阿姆斯特丹-AMD2-trojan, server: jgwamstd2.gaox.ml, port: 443, type: trojan, password: 1b2e8149-ab10-4e08-bfac-d7fee725c69e, sni: jgwamstd2.gaox.ml}
   - {name: 🇩🇪 甲骨文-法兰克福-AMD1-trojan, server: jgwflkf1.gaox.ml, port: 443, type: trojan, password: e30f8fde-9245-4968-825b-fb606fbab4ba, sni: jgwflkf1.gaox.ml}
   - {name: 🇩🇪 甲骨文-法兰克福-AMD2-trojan, server: jgwflkf2.gaox.ml, port: 443, type: trojan, password: f3a6ca2c-b92d-4bcd-b1dd-f48217e0ded9, sni: jgwflkf2.gaox.ml}
+  - {name: 🇦🇺 甲骨文-悉尼-AMD1-trojan, server: jgwxn1.gaox.ml, port: 443, type: trojan, password: 0f715619-0037-4358-a7c6-958106bc6b49, sni: jgwxn1.gaox.ml}
+  - {name: 🇦🇺 甲骨文-悉尼-AMD2-trojan, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml}
+  - {name: 🇦🇷 甲骨文-悉尼-ARM1-trojan, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: f6de0aa4-fd17-4019-8e3d-7408869e2a88, sni: jgwxn3.gaox.ml}
+  - {name: 🇦🇷 甲骨文-悉尼-ARM2-trojan, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: 95fcec66-bbf8-45d1-81e6-bc5ba352316a, sni: jgwxn4.gaox.ml}
+  - {name: 🇦🇷 甲骨文-春川-ARM1-trojan, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: 262be46a-9832-4898-9642-1b579b0548e3, sni: jgwcc3.gaox.ml}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -61,8 +64,6 @@ proxy-groups:
       - 🇺🇲 甲骨文-凤凰城-AMD2-trojan
       - 🇦🇷 甲骨文-凤凰城-ARM1-trojan
       - 🇦🇷 甲骨文-凤凰城-ARM2-trojan
-      - 🇸🇦 甲骨文-迪拜-AMD1-trojan
-      - 🇸🇦 甲骨文-迪拜-AMD2-trojan
       - 甲骨文-纽波特-AMD1-trojan
       - 甲骨文-纽波特-AMD2-trojan
       - 🇬🇧 甲骨文-伦敦-AMD1-trojan
@@ -75,6 +76,11 @@ proxy-groups:
       - 🇳🇱 甲骨文-阿姆斯特丹-AMD2-trojan
       - 🇩🇪 甲骨文-法兰克福-AMD1-trojan
       - 🇩🇪 甲骨文-法兰克福-AMD2-trojan
+      - 🇦🇺 甲骨文-悉尼-AMD1-trojan
+      - 🇦🇺 甲骨文-悉尼-AMD2-trojan
+      - 🇦🇷 甲骨文-悉尼-ARM1-trojan
+      - 🇦🇷 甲骨文-悉尼-ARM2-trojan
+      - 🇦🇷 甲骨文-春川-ARM1-trojan
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -99,8 +105,6 @@ proxy-groups:
       - 🇺🇲 甲骨文-凤凰城-AMD2-trojan
       - 🇦🇷 甲骨文-凤凰城-ARM1-trojan
       - 🇦🇷 甲骨文-凤凰城-ARM2-trojan
-      - 🇸🇦 甲骨文-迪拜-AMD1-trojan
-      - 🇸🇦 甲骨文-迪拜-AMD2-trojan
       - 甲骨文-纽波特-AMD1-trojan
       - 甲骨文-纽波特-AMD2-trojan
       - 🇬🇧 甲骨文-伦敦-AMD1-trojan
@@ -113,6 +117,11 @@ proxy-groups:
       - 🇳🇱 甲骨文-阿姆斯特丹-AMD2-trojan
       - 🇩🇪 甲骨文-法兰克福-AMD1-trojan
       - 🇩🇪 甲骨文-法兰克福-AMD2-trojan
+      - 🇦🇺 甲骨文-悉尼-AMD1-trojan
+      - 🇦🇺 甲骨文-悉尼-AMD2-trojan
+      - 🇦🇷 甲骨文-悉尼-ARM1-trojan
+      - 🇦🇷 甲骨文-悉尼-ARM2-trojan
+      - 🇦🇷 甲骨文-春川-ARM1-trojan
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -137,8 +146,6 @@ proxy-groups:
       - 🇺🇲 甲骨文-凤凰城-AMD2-trojan
       - 🇦🇷 甲骨文-凤凰城-ARM1-trojan
       - 🇦🇷 甲骨文-凤凰城-ARM2-trojan
-      - 🇸🇦 甲骨文-迪拜-AMD1-trojan
-      - 🇸🇦 甲骨文-迪拜-AMD2-trojan
       - 甲骨文-纽波特-AMD1-trojan
       - 甲骨文-纽波特-AMD2-trojan
       - 🇬🇧 甲骨文-伦敦-AMD1-trojan
@@ -151,6 +158,11 @@ proxy-groups:
       - 🇳🇱 甲骨文-阿姆斯特丹-AMD2-trojan
       - 🇩🇪 甲骨文-法兰克福-AMD1-trojan
       - 🇩🇪 甲骨文-法兰克福-AMD2-trojan
+      - 🇦🇺 甲骨文-悉尼-AMD1-trojan
+      - 🇦🇺 甲骨文-悉尼-AMD2-trojan
+      - 🇦🇷 甲骨文-悉尼-ARM1-trojan
+      - 🇦🇷 甲骨文-悉尼-ARM2-trojan
+      - 🇦🇷 甲骨文-春川-ARM1-trojan
   - name: 📲 电报信息
     type: select
     proxies:
@@ -174,8 +186,6 @@ proxy-groups:
       - 🇺🇲 甲骨文-凤凰城-AMD2-trojan
       - 🇦🇷 甲骨文-凤凰城-ARM1-trojan
       - 🇦🇷 甲骨文-凤凰城-ARM2-trojan
-      - 🇸🇦 甲骨文-迪拜-AMD1-trojan
-      - 🇸🇦 甲骨文-迪拜-AMD2-trojan
       - 甲骨文-纽波特-AMD1-trojan
       - 甲骨文-纽波特-AMD2-trojan
       - 🇬🇧 甲骨文-伦敦-AMD1-trojan
@@ -188,6 +198,11 @@ proxy-groups:
       - 🇳🇱 甲骨文-阿姆斯特丹-AMD2-trojan
       - 🇩🇪 甲骨文-法兰克福-AMD1-trojan
       - 🇩🇪 甲骨文-法兰克福-AMD2-trojan
+      - 🇦🇺 甲骨文-悉尼-AMD1-trojan
+      - 🇦🇺 甲骨文-悉尼-AMD2-trojan
+      - 🇦🇷 甲骨文-悉尼-ARM1-trojan
+      - 🇦🇷 甲骨文-悉尼-ARM2-trojan
+      - 🇦🇷 甲骨文-春川-ARM1-trojan
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -211,8 +226,6 @@ proxy-groups:
       - 🇺🇲 甲骨文-凤凰城-AMD2-trojan
       - 🇦🇷 甲骨文-凤凰城-ARM1-trojan
       - 🇦🇷 甲骨文-凤凰城-ARM2-trojan
-      - 🇸🇦 甲骨文-迪拜-AMD1-trojan
-      - 🇸🇦 甲骨文-迪拜-AMD2-trojan
       - 甲骨文-纽波特-AMD1-trojan
       - 甲骨文-纽波特-AMD2-trojan
       - 🇬🇧 甲骨文-伦敦-AMD1-trojan
@@ -225,6 +238,11 @@ proxy-groups:
       - 🇳🇱 甲骨文-阿姆斯特丹-AMD2-trojan
       - 🇩🇪 甲骨文-法兰克福-AMD1-trojan
       - 🇩🇪 甲骨文-法兰克福-AMD2-trojan
+      - 🇦🇺 甲骨文-悉尼-AMD1-trojan
+      - 🇦🇺 甲骨文-悉尼-AMD2-trojan
+      - 🇦🇷 甲骨文-悉尼-ARM1-trojan
+      - 🇦🇷 甲骨文-悉尼-ARM2-trojan
+      - 🇦🇷 甲骨文-春川-ARM1-trojan
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -248,8 +266,6 @@ proxy-groups:
       - 🇺🇲 甲骨文-凤凰城-AMD2-trojan
       - 🇦🇷 甲骨文-凤凰城-ARM1-trojan
       - 🇦🇷 甲骨文-凤凰城-ARM2-trojan
-      - 🇸🇦 甲骨文-迪拜-AMD1-trojan
-      - 🇸🇦 甲骨文-迪拜-AMD2-trojan
       - 甲骨文-纽波特-AMD1-trojan
       - 甲骨文-纽波特-AMD2-trojan
       - 🇬🇧 甲骨文-伦敦-AMD1-trojan
@@ -262,6 +278,11 @@ proxy-groups:
       - 🇳🇱 甲骨文-阿姆斯特丹-AMD2-trojan
       - 🇩🇪 甲骨文-法兰克福-AMD1-trojan
       - 🇩🇪 甲骨文-法兰克福-AMD2-trojan
+      - 🇦🇺 甲骨文-悉尼-AMD1-trojan
+      - 🇦🇺 甲骨文-悉尼-AMD2-trojan
+      - 🇦🇷 甲骨文-悉尼-ARM1-trojan
+      - 🇦🇷 甲骨文-悉尼-ARM2-trojan
+      - 🇦🇷 甲骨文-春川-ARM1-trojan
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -286,8 +307,6 @@ proxy-groups:
       - 🇺🇲 甲骨文-凤凰城-AMD2-trojan
       - 🇦🇷 甲骨文-凤凰城-ARM1-trojan
       - 🇦🇷 甲骨文-凤凰城-ARM2-trojan
-      - 🇸🇦 甲骨文-迪拜-AMD1-trojan
-      - 🇸🇦 甲骨文-迪拜-AMD2-trojan
       - 甲骨文-纽波特-AMD1-trojan
       - 甲骨文-纽波特-AMD2-trojan
       - 🇬🇧 甲骨文-伦敦-AMD1-trojan
@@ -300,6 +319,11 @@ proxy-groups:
       - 🇳🇱 甲骨文-阿姆斯特丹-AMD2-trojan
       - 🇩🇪 甲骨文-法兰克福-AMD1-trojan
       - 🇩🇪 甲骨文-法兰克福-AMD2-trojan
+      - 🇦🇺 甲骨文-悉尼-AMD1-trojan
+      - 🇦🇺 甲骨文-悉尼-AMD2-trojan
+      - 🇦🇷 甲骨文-悉尼-ARM1-trojan
+      - 🇦🇷 甲骨文-悉尼-ARM2-trojan
+      - 🇦🇷 甲骨文-春川-ARM1-trojan
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -340,8 +364,6 @@ proxy-groups:
       - 🇺🇲 甲骨文-凤凰城-AMD2-trojan
       - 🇦🇷 甲骨文-凤凰城-ARM1-trojan
       - 🇦🇷 甲骨文-凤凰城-ARM2-trojan
-      - 🇸🇦 甲骨文-迪拜-AMD1-trojan
-      - 🇸🇦 甲骨文-迪拜-AMD2-trojan
       - 甲骨文-纽波特-AMD1-trojan
       - 甲骨文-纽波特-AMD2-trojan
       - 🇬🇧 甲骨文-伦敦-AMD1-trojan
@@ -354,6 +376,11 @@ proxy-groups:
       - 🇳🇱 甲骨文-阿姆斯特丹-AMD2-trojan
       - 🇩🇪 甲骨文-法兰克福-AMD1-trojan
       - 🇩🇪 甲骨文-法兰克福-AMD2-trojan
+      - 🇦🇺 甲骨文-悉尼-AMD1-trojan
+      - 🇦🇺 甲骨文-悉尼-AMD2-trojan
+      - 🇦🇷 甲骨文-悉尼-ARM1-trojan
+      - 🇦🇷 甲骨文-悉尼-ARM2-trojan
+      - 🇦🇷 甲骨文-春川-ARM1-trojan
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -387,6 +414,8 @@ rules:
  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
  - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
+ - DOMAIN,xivanalysis.com,🎯 全球直连
+ - DOMAIN,picanalysis.vivo.com.cn,🎯 全球直连
  - DOMAIN,fairplay.l.qq.com,🎯 全球直连
  - DOMAIN,livew.l.qq.com,🎯 全球直连
  - DOMAIN,vd.l.qq.com,🎯 全球直连
@@ -2151,6 +2180,7 @@ rules:
  - DOMAIN-SUFFIX,msftauthimages.net,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msftidentity.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msidentity.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msn.cn,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msocdn.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msocsp.com,Ⓜ️ 微软服务
@@ -2939,6 +2969,8 @@ rules:
  - DOMAIN-SUFFIX,kaikeba.com,🎯 全球直连
  - DOMAIN-SUFFIX,laomo.me,🎯 全球直连
  - DOMAIN-SUFFIX,mpyit.com,🎯 全球直连
+ - DOMAIN-SUFFIX,msftconnecttest.com,🎯 全球直连
+ - DOMAIN-SUFFIX,msftncsi.com,🎯 全球直连
  - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
  - DOMAIN-SUFFIX,cn,🎯 全球直连
  - DOMAIN-SUFFIX,中国,🎯 全球直连
@@ -3403,6 +3435,8 @@ rules:
  - DOMAIN-SUFFIX,lancdns.com,🎯 全球直连
  - DOMAIN-SUFFIX,landiannews.com,🎯 全球直连
  - DOMAIN-SUFFIX,lanzou.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lanzoui.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lanzoux.com,🎯 全球直连
  - DOMAIN-SUFFIX,lemicp.com,🎯 全球直连
  - DOMAIN-SUFFIX,letitfly.me,🎯 全球直连
  - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
@@ -3472,6 +3506,7 @@ rules:
  - DOMAIN-SUFFIX,sspai.com,🎯 全球直连
  - DOMAIN-SUFFIX,startssl.com,🎯 全球直连
  - DOMAIN-SUFFIX,suning.com,🎯 全球直连
+ - DOMAIN-SUFFIX,synology.com,🎯 全球直连
  - DOMAIN-SUFFIX,taihe.com,🎯 全球直连
  - DOMAIN-SUFFIX,th-sjy.com,🎯 全球直连
  - DOMAIN-SUFFIX,tianqi.com,🎯 全球直连
